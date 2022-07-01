@@ -14,7 +14,11 @@ dwm soporta múltiples espacios de trabajo y, a diferencia de ratpoison, permite
 
 Aqui te dejo una de las formas mas sencillas de como instalar dwm en arch.. aqui te dejo el repositorio..
 
-### dwm-distrotube
+### Distrotube DWM
+
+NOTA: Facil y muy bueno si es tu primer Window Manager.
+
+[Distrotube GitLab](https://gitlab.com/dwt1/dwm-distrotube)
 
 puedes bajar el repositorio y entrar en la carpeta  PKGBUILD from this reposity correr el comando:
 
@@ -30,7 +34,8 @@ sudo pacman -U *.pkg.tar.zst
 ````
 
 ### Luke's DWM
-Uno de los mejores dots de DWM para compilar:
+
+NOTA:Uno de los mejores dots de DWM para compilar:
 
 [Luke's build of dwm](https://github.com/LukeSmithxyz/dwm)
 
