@@ -3,9 +3,12 @@ title: OpenBSD + BSPWM
 publish_date: 2022-09-09
 summary: 'actualmente en mi laptop personal OpenBSD 7.1 y como manejador de ventana ya tengo mucho usando entre BSPWM y DWM aqui les dejos screenshot y los dotfiles.. enjoy!'
 ---
+
+![My Personal Laptop OpenBSD 7.2 ](/bspwm.png "my OpenBSD laptop")
+
 # BSPWM 
 
-es un administrador de ventanas de mosaico que representa las ventanas como las hojas de un árbol binario completo.
+Es un administrador de ventanas de mosaico que representa las ventanas como las hojas de un árbol binario completo.
 
 Solo responde a eventos X y los mensajes que recibe en un socket dedicado.
 
