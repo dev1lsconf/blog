@@ -28,6 +28,12 @@ o usando yay
 yay -S fish
 ```
 
+en OpenBSD
+
+```ksh
+pkg_add fish
+
+
 ## Configurar Fish
 
 En mis maquinas suelo utilizar un lanzador ya sea con un Launcher o usando Keybindings.
