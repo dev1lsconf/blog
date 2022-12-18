@@ -8,7 +8,7 @@ blog({
   //header: <header>OpenBSD</header>,
   //section: <section>My Logs:</section>,
   //footer: <footer>contact: dev1ls@sdf.org</footer>,
-  avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
+  avatar: "daemon.jpg",
   avatarClass: "rounded-full",
   author: "Dev1ls",
 
