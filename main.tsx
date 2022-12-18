@@ -11,7 +11,12 @@ blog({
   avatar: "beastie.png",
   avatarClass: "rounded-full",
   author: "Dev1ls",
-
+  links: [
+    { title: "Email", url: "mailto:dev1ls@sdf.org" },
+    { title: "GitHub", url: "https://github.com/dev1lsconf" },
+    { title: "Twitter", url: "https://twitter.com/dev1lsconf" },
+    { title: "Mastodon", url: "https://mastodon.sdf.org/@dev1ls"}
+  ],
   // middlewares: [
 
     // If you want to set up Google Analytics, paste your GA key here.
