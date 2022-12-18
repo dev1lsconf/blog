@@ -4,6 +4,8 @@ publish_date:  2022-05-24
 summary: 'Friendly interactive shell es el nombre de una shell de Unix que pretende ser interactiva y amigable para el usuario, al contrario de otras shells.'
 ---
 
+[![My Fish Shell](/fish.png)](https://fishshell.com)
+
  La meta de diseño de ***fish*** es dar al usuario un conjunto diverso de poderosas características de una manera fácil de descubrir, recordar y usar ***fish*** es considerado un ***"shell exótica"***, ya que su sintaxis no deriva ni de una ***Bourne shell (ksh, bash, zsh)*** ni de alguna ***C shell (csh, tcsh)***. También, al contrario de otras shells, que desabilitan algunas características para cuidar los recursos del sistema, ***fish*** habilita todas las características por defecto.
  
  ### con opciones como:
