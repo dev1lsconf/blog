@@ -4,7 +4,7 @@ publish_date: 2022-10-26
 summary: 'Unbound-adblock es una utilidad de firewall de DNS rápida, flexible y fácil de usar. Le permite bloquear contenido en línea no deseado en toda su red.' 
 ---
 
-# unbound-adblock 0.5 OpenBSD Installation Instructions 
+unbound-adblock 0.5 OpenBSD Installation Instructions 
 Copyright 2018-2021 Jordan Geoghegan <jordan@geoghegan.ca>
 
 
