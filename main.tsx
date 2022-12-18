@@ -3,14 +3,14 @@
 import blog, { ga, redirects, h } from "blog";
 
 blog({
-  title: "Dev1ls>Blog",
-  description: "OpenBSD and Nixos User.. Learning.",
+  title: "Dev1ls",
+  description: "Blog about my experiences with OpenBSD and Nixos",
   //header: <header>OpenBSD</header>,
   //section: <section>My Logs:</section>,
   //footer: <footer>contact: dev1ls@sdf.org</footer>,
   avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
   avatarClass: "rounded-full",
-  author: "An author",
+  author: "Dev1ls",
 
   // middlewares: [
 
