@@ -3,7 +3,7 @@ title: DWM + Arch
 publish_date: 2022-05-24
 ---
 
-![My Personal Laptop OpenBSD 7.2 -current ](./bspwm.png "my OpenBSD laptop")
+![My Personal Laptop OpenBSD 7.2 ](/bspwm.png "my OpenBSD laptop")
 
 Es el escritorio y manejador de ventanas que utilizo actualmente. Estuve usando BSPWM y Xmonad pero soy amante de lo que consume poco recursos y en ese sentido todo lo "suckless" tiene ese objetivo.
 
