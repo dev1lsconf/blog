@@ -3,8 +3,8 @@
 import blog, { ga, redirects, h } from "blog";
 
 blog({
-  title: "Dev1ls",
-  description: "Blog about my experiences with OpenBSD and Nixos",
+  title: "Dev1ls>Blog",
+  description: "Unix Lover / learning VM, Networking and Backend Services..",
   //header: <header>OpenBSD</header>,
   //section: <section>My Logs:</section>,
   //footer: <footer>contact: dev1ls@sdf.org</footer>,
