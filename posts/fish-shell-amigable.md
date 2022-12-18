@@ -32,7 +32,7 @@ en OpenBSD
 
 ```ksh
 pkg_add fish
-
+```
 
 ## Configurar Fish
 
