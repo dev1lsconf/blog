@@ -4,7 +4,7 @@ publish_date:  2022-12-20
 summary: 'NixOS es una distribución de Linux construida sobre el administrador de paquetes Nix. Utiliza configuración declarativa y permite actualizar de manera confiable el sistema. Ofrece varios "canales" de paquetes oficiales, incluida la versión estable actual y la versión inestable que aún continúa en pruebas. '
 ---
 
-[![My NixOS Setup](/nixos.jpeg)](https://nixos.org)]
+![My NixOS Setup](/nixos.jpeg)
 
 Despues de estar muy comodo usando Archlinux.. llego NixOS.. hhaaha..  luego hare un post sobre lo que me gusto y me atrajo de NixOS..
 
