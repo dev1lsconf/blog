@@ -7,7 +7,8 @@ summary: 'Unbound-adblock es una utilidad de firewall de DNS rápida, flexible y
 ![unwindctl](/unbound.jpeg)
 
 Nota: Esta configuracion es para utilizar con unwind ya que yo lo tenia en uso pero con una configuracion que pasaba algunos ads..
-En blog oficial puedes encontrar la configuracion solo para unbound y tambien para otros *BSD.. incluye alpine linux :) 
+no se si era mala configuracion o que le faltaban mitigaciones.. En el blog oficial puedes encontrar la configuracion no solo para 
+unwind tambien hay para solo unbound y tambien para otros *BSD.. incluye alpine linux :) 
 
 unbound-adblock 0.5 OpenBSD Installation Instructions 
 Copyright 2018-2021 Jordan Geoghegan <jordan@geoghegan.ca>
