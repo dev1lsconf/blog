@@ -1,5 +1,5 @@
 ---
-title: My NixOS Setup 
+title: OpenBSD Time Machine 
 publish_date:  2022-12-20
 summary: 'Muchos sistemas de backups.. yo mismo uso borg y restic muy comun mente.. pero para mi laptop en OpenBSD tengo esta pieza de arte que encontre en la web de un genio fuente: https://xosc.org/timemachine.html '
 ---
