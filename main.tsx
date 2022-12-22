@@ -11,6 +11,7 @@ blog({
   avatar: "beastie.png",
   avatarClass: "rounded-full",
   author: "Dev1ls",
+  dateStyle: "long",
   links: [
     { title: "Email", url: "mailto:dev1ls@sdf.org" },
     { title: "GitHub", url: "https://github.com/dev1lsconf" },
