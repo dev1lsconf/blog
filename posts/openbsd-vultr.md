@@ -4,7 +4,7 @@ publish_date:  2022-12-24
 summary: 'Vultr tiene su aplicacion cli que funciona muy bien y para abrir puertos y manejar la maquina como reiniciarla ( que por mucho tiempo no lo veo necesario ) pues no hay que ir al molestoso panel web a perder el tiempo con esas simplezas..'
 ---
 
-[![My OpenBSD vm](/vvultr-vm-openbsd.png)](https://dev1ls.online)]
+[![My OpenBSD vm](/vultr-vm-openbsd.png)](https://dev1ls.online)]
 
                 OpenBSD 7.1 at Vultr
 
@@ -21,7 +21,7 @@ summary: 'Vultr tiene su aplicacion cli que funciona muy bien y para abrir puert
  digamos que no es el mas diestro.. y es la primera vez que
  solicita una maquina en *BSD.
 
-[![My OpenBSD vm](/vvultr-openbsd.png)](https://dev1ls.online)]
+[![My OpenBSD vm](/vultr-openbsd.png)](https://dev1ls.online)]
 
 vh no ofrecen OpenBSD y el como si estaba entuciasmado en
 crear el servidor en OpenBSD pues despues de mirar algunos
