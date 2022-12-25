@@ -6,7 +6,8 @@ summary: 'Vultr tiene su aplicacion cli que funciona muy bien y para abrir puert
 
 [![My OpenBSD vm](/vultr-vm-openbsd.png)](https://dev1ls.online)]
 
-                OpenBSD 7.1 at Vultr
+
+#OpenBSD 7.1 at Vultr
 
  experiencia hasta el momento con Vultr a sido buena..
  Entre amigos hemos decidido colaborar y crear un servidor
@@ -23,13 +24,13 @@ summary: 'Vultr tiene su aplicacion cli que funciona muy bien y para abrir puert
 
 [![My OpenBSD vm](/vultr-openbsd.png)](https://dev1ls.online)]
 
-vh no ofrecen OpenBSD y el como si estaba entuciasmado en
+OVH no ofrecen OpenBSD y el como si estaba entuciasmado en
 crear el servidor en OpenBSD pues despues de mirar algunos
 sitios le gusto Vultr.. y creeme el ingreso fue algo facil
 y muy rapido.. me agrego como usuario administrador.. ellos
 mandaron su email y me di de alta.. muuy rapido..
 
-Que me gusto:
+### Que me gusto:
 
 Vultr tiene su aplicacion cli que funciona muy bien y para
 abrir puertos y manejar la maquina como reiniciarla
