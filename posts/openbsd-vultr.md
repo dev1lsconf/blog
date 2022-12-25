@@ -7,7 +7,7 @@ summary: 'Vultr tiene su aplicacion cli que funciona muy bien y para abrir puert
 [![My OpenBSD vm](/vultr-vm-openbsd.png)](https://dev1ls.online)]
 
 
-#OpenBSD 7.1 at Vultr
+#  Vultr nice services..
 
  experiencia hasta el momento con Vultr a sido buena..
  Entre amigos hemos decidido colaborar y crear un servidor
