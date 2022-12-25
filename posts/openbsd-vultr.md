@@ -4,7 +4,7 @@ publish_date:  2022-12-24
 summary: 'Vultr tiene su aplicacion cli que funciona muy bien y para abrir puertos y manejar la maquina como reiniciarla ( que por mucho tiempo no lo veo necesario ) pues no hay que ir al molestoso panel web a perder el tiempo con esas simplezas..'
 ---
 
-[![My OpenBSD vm](/vultr-vm-openbsd.png)]
+![My OpenBSD vm](/vultr-vm-openbsd.png)
 
 
 #  Vultr nice services..
