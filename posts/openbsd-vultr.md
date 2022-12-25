@@ -22,8 +22,6 @@ summary: 'Vultr tiene su aplicacion cli que funciona muy bien y para abrir puert
  digamos que no es el mas diestro.. y es la primera vez que
  solicita una maquina en *BSD.
 
-[![My OpenBSD vm](/vultr-openbsd.png)](https://dev1ls.online)]
-
 OVH no ofrecen OpenBSD y el como si estaba entuciasmado en
 crear el servidor en OpenBSD pues despues de mirar algunos
 sitios le gusto Vultr.. y creeme el ingreso fue algo facil
