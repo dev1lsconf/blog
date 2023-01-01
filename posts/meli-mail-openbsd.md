@@ -1,6 +1,6 @@
 ---
-title:  Meli Mail ( OpenBSD )
-publish_date:  2023-1-1
+title:  Meli Mail - OpenBSD 
+publish_date:  2022-12-31
 summary: 'Meli Mail.. muy interesante alternativa a Mutt en Rust y aparte de todo mi primero post 2023.'
 ---
 
