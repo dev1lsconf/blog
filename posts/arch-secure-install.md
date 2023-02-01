@@ -1,6 +1,6 @@
 ---
 title:  Hardened Archlinux
-publish_date:  2022-12-24
+publish_date:  2023-02-01
 summary: 'This guide provides a walkthrough of how to turn on many of these features during installation, as well as reasoning for why certain features help improve security.' 
 ---
 
