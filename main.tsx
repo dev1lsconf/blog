@@ -5,9 +5,9 @@ import blog, { ga, redirects, h } from "blog";
 blog({
   title: "Dev1ls>Blog",
   description: "Unix Lover / learning VM, Networking and Backend Services..",
-  //header: <header>OpenBSD</header>,
-  //section: <section>My Logs:</section>,
-  //footer: <footer>contact: dev1ls@sdf.org</footer>,
+  header: <header>Dev1ls' Blog</header>,
+  section: <section>My Logs:</section>,
+  footer: <footer>contact: dev1ls@sdf.org</footer>,
   avatar: "beastie.png",
   avatarClass: "rounded-full",
   author: "Dev1ls",
@@ -30,5 +30,5 @@ blog({
     // }),
 
   // ]
-  footer: <footer>Powered with love by dev1ls. 2023</footer>,
+
 });
