@@ -4,7 +4,7 @@ publish_date:  2023-02-06
 summary: 'Configure your local network enable Wi-Fi access point in WPA2 mode, DHCP server, and router.'
 ---
 # Connect to Wi-Fi and Ethernet networks from OpenBSD
-
+by roman zolotarev
 Configure your local network (enable Wi-Fi access point in WPA2 mode, DHCP server, and router).
 
 Install OpenBSD on your computer.
@@ -41,15 +41,17 @@ Write your network configuration (incl. password) to hostname.if(5) and run nets
 
 
 ```bash
- echo 'join Home wpakey p@ssw0rd
+echo 'join Home wpakey p@ssw0rd
 dhcp
 up' > /etc/hostname.iwm0
 ```
-```bash
- chown root:wheel /etc/hostname.iwm0
- chmod 0640 /etc/hostname.iwm0
 
- sh /etc/netstart
+
+```bash
+chown root:wheel /etc/hostname.iwm0
+chmod 0640 /etc/hostname.iwm0
+
+sh /etc/netstart
 
 iwm0: no link... got link
 iwm0: bound to 192.168.1.2 from 192.168.1.1 (yy:yy:yy:yy:yy:yy)
@@ -86,18 +88,18 @@ For computers with two or more Ethernet and Wi-Fi network adapters you can confi
 With this configuration when Ethernet is connected OpenBSD uses em0 interface, otherwise it tries to connect to one of Wi-Fi networks via iwm0.
 
 ```bash
- echo 'up' > /etc/hostname.em0
+echo 'up' > /etc/hostname.em0
 
- echo 'join Home wpakey p@ssw0rd
+echo 'join Home wpakey p@ssw0rd
 join Work wpakey @n0th3r0n3
 up' > /etc/hostname.iwm0
 
- echo 'trunkproto failover trunkport em0 trunkport iwm0
+echo 'trunkproto failover trunkport em0 trunkport iwm0
 dhcp
 up' > /etc/hostname.trunk0
 
- chown root:wheel /etc/hostname.*
- chmod 0640 /etc/hostname.*
+chown root:wheel /etc/hostname.*
+chmod 0640 /etc/hostname.*
 
  sh /etc/netstart
 trunk0: no link... got link
@@ -110,7 +112,7 @@ Shout down all network interfaces: em0, iwm0, and remove trunk0. Reset the routi
 
 
 ```bash
-ifconfig em0 down
+ ifconfig em0 down
  ifconfig iwm0 down
  ifconfig trunk0 destroy
  route -n flush
@@ -129,6 +131,7 @@ trunk0: bound to 192.168.1.2 from 192.168.1.1 (yy:yy:yy:yy:yy:yy)
 
 
 ```bash
+ 
  ifconfig
 ...
 em0: flags=8b43 mtu 1500
@@ -188,4 +191,4 @@ PING 192.168.1.1 (192.168.1.1): 56 data bytes
 2 packets transmitted, 2 packets received, 0.0% packet loss
 round-trip min/avg/max/std-dev = 0.398/0.421/0.443/0.023 ms
 ```
-
+sources: https://romanzolotarev.com/m/on.html
