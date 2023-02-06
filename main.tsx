@@ -30,4 +30,5 @@ blog({
     // }),
 
   // ]
+  footer: <footer>Powered with love by dev1ls. 2023</footer>,
 });
