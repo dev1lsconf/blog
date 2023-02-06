@@ -388,7 +388,6 @@ round-trip min/avg/max/std-dev = 0.398/0.421/0.443/0.023 ms
 
 '''
 
-'''
 PING 192.168.1.1 (192.168.1.1): 56 data bytes
 64 bytes from 192.168.1.1: icmp_seq=0 ttl=64 time=0.443 ms
 64 bytes from 192.168.1.1: icmp_seq=1 ttl=64 time=0.398 ms
@@ -396,6 +395,4 @@ PING 192.168.1.1 (192.168.1.1): 56 data bytes
 --- 192.168.1.1 ping statistics ---
 2 packets transmitted, 2 packets received, 0.0% packet loss
 round-trip min/avg/max/std-dev = 0.398/0.421/0.443/0.023 ms
-
-'''
 
