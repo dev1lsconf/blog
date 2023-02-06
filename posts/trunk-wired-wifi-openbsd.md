@@ -1,6 +1,6 @@
  ---
  title: OpenBSD wired and wifi trunk 
- publish_date: 2022-09-09
+ publish_date: 2023-02-06
  summary: 'Configure your local network (enable Wi-Fi access point in WPA2 mode, DHCP server, and router)'
  ---
 
