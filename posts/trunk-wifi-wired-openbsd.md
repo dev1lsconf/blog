@@ -1,10 +1,12 @@
 ---
-title: Trunk OpenBSD
+title: Trunk wired and wifi on OpenBSD
 publish_date:  2023-02-06
 summary: 'Configure your local network enable Wi-Fi access point in WPA2 mode, DHCP server, and router.'
 ---
 # Connect to Wi-Fi and Ethernet networks from OpenBSD
-by roman zolotarev
+
+##by roman zolotarev
+
 Configure your local network (enable Wi-Fi access point in WPA2 mode, DHCP server, and router).
 
 Install OpenBSD on your computer.
@@ -18,10 +20,10 @@ OpenBSD has em(4) driver for Intel Ethernet network adapter and as in case with 
 echo 'dhcp
 up' > /etc/hostname.em0
 
- chown root:wheel /etc/hostname.em0
- chmod 0640 /etc/hostname.em0
+chown root:wheel /etc/hostname.em0
+chmod 0640 /etc/hostname.em0
 
- sh /etc/netstart
+sh /etc/netstart
 em0: no link... got link
 em0: bound to 192.168.1.2 from 192.168.1.1 (yy:yy:yy:yy:yy:yy)
 ```
@@ -101,7 +103,7 @@ up' > /etc/hostname.trunk0
 chown root:wheel /etc/hostname.*
 chmod 0640 /etc/hostname.*
 
- sh /etc/netstart
+sh /etc/netstart
 trunk0: no link... got link
 trunk0: bound to 192.168.1.2 from 192.168.1.1 (yy:yy:yy:yy:yy:yy)
 ```
@@ -161,7 +163,7 @@ trunk0: flags=8843 mtu 1500
 ```
 
 ```bash
- arp -a
+arp -a
 Host                  Ethernet Address    Netif Expire    Flags
 192.168.1.1           yy:yy:yy:yy:yy:yy  trunk0 19m59s
 192.168.1.2           xx:xx:xx:xx:xx:xx  trunk0 permanent l
