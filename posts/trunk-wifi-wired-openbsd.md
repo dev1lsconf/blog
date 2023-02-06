@@ -5,7 +5,7 @@ summary: 'Configure your local network enable Wi-Fi access point in WPA2 mode, D
 ---
 # Connect to Wi-Fi and Ethernet networks from OpenBSD
 
-##by roman zolotarev
+## by roman zolotarev
 
 Configure your local network (enable Wi-Fi access point in WPA2 mode, DHCP server, and router).
 
