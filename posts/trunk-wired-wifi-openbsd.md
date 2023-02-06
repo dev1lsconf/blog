@@ -1,3 +1,9 @@
+ ---
+ title: OpenBSD wired and wifi trunk 
+ publish_date: 2022-09-09
+ summary: 'Configure your local network (enable Wi-Fi access point in WPA2 mode, DHCP server, and router)'
+ ---
+
 # Connect to Wi-Fi and Ethernet networks from OpenBSD
 by roman zolotarev
 
