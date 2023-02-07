@@ -1,6 +1,6 @@
 ---
 title: Awesome list TUI and CLI apps
-publish_date: 2022-02-07
+publish_date: 2023-02-07
 summary: 'cuz you know i love TUI apps and CLI enviroment and compile! here a awesome list hahahaha'
 ---
 # Awesome TUIs
