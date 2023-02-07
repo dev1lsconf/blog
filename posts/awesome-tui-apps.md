@@ -7,19 +7,6 @@ summary: 'cuz you know i love TUI apps and CLI enviroment and compile! here a aw
 
 List of projects that provide terminal user interfaces
 
-## Table of Contents
-
-- [Dashboards](#dashboards)
-- [Development](#development)
-- [Editors](#editors)
-- [Games](#games)
-- [Libraries](#libraries)
-- [Messaging](#messaging)
-- [Miscellaneous](#miscellaneous)
-- [Multimedia](#multimedia)
-- [Productivity](#productivity)
-- [Web](#web)
-
 <details open><summary><h2>Dashboards</h2></summary>
 
 - [bashtop](https://github.com/aristocratos/bashtop) Resource manager written in bash
