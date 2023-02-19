@@ -13,10 +13,12 @@ blog({
   author: "Dev1ls",
   dateStyle: "long",
   links: [
-    { title: "Email", url: "mailto:dev1ls@sdf.org" },
+    { title: "Email", url: "mailto:dev1ls@texto-plano.xyz" },
     { title: "GitHub", url: "https://github.com/dev1lsconf" },
     { title: "Twitter", url: "https://twitter.com/dev1lsconf" },
-    { title: "Mastodon", url: "https://mastodon.sdf.org/@dev1ls"}
+    { title: "Mastodon", url: "https://mastodon.sdf.org/@dev1ls"},
+    { title: "Wechat", url: "https://kiwiirc.com/nextclient/irc.libera.chat/?nick=Invitado&/?chan=#dnet"}
+
   ],
   // middlewares: [
 
