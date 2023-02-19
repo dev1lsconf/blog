@@ -1,10 +1,10 @@
 ---
-title:  cwm(1)  OpenBSD 
+title: cwm OpenBSD 
 publish_date:  2023-2-19
-summary: 'cwm es un administrador de ventanas para X11 que contiene muchas características que se concentran en la eficiencia y transparencia de la administración de ventanas, manteniendo la estética más simple y agradable.'
+summary: 'cwm es un administrador de ventanas para X11 que contiene muchas características que se concentran en la eficiencia y transparencia de la administración de ventanas, manteniendo la estética más simple y agradable'
 ---
 
-![CWM ](/cwm-openbsd.png)
+![CWM ](/my-cwm-openbsd.png "My cwm simply")
 
 #  CWM (1) El mejor administrador de ventanas!
 
