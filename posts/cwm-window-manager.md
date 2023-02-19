@@ -4,7 +4,7 @@ publish_date:  2023-02-18
 summary: 'cwm: un administrador de ventanas liviano y eficiente para X11'
 ---
 
-[![My CWM pimp](/my-cwm-openbsd.png)](https://man.openbsd.org/cwm.1)]
+![My CWM pimp](/my-cwm-openbsd.png)](https://man.openbsd.org/cwm.1)
 
 
 cwm es un administrador de ventanas para X11 que contiene muchas características que se concentran 
