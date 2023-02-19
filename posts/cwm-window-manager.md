@@ -15,5 +15,5 @@ Viene incluido en OpenBSD asi com fvwm y twm.
 
 Aqui te dejo mi sencillo pero elegante configuracion..
 
-<script src="https://gist.github.com/dev1lsconf/cae520cbb960d346d9aba1ec71b597b3.js"></script>
 
+[My cwmrc](https://gist.github.com/dev1lsconf/cae520cbb960d346d9aba1ec71b597b3)
