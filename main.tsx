@@ -4,7 +4,7 @@ import blog, { ga, redirects, h } from "blog";
 
 blog({
   title: "Dev1ls>Blog",
-  description: "Unix Lover / learning VM, Networking and Backend Services..",
+  description: "Unix Lover / learning VM, Networking, python and Backend Services..",
   // header: <header>Dev1ls' Blog</header>,
   // section: <section>My Logs:</section>,
  // `` footer: <footer>contact: dev1ls@sdf.org</footer>,
@@ -17,7 +17,6 @@ blog({
     { title: "GitHub", url: "https://github.com/dev1lsconf" },
     { title: "Twitter", url: "https://twitter.com/dev1lsconf" },
     { title: "Mastodon", url: "https://mastodon.sdf.org/@dev1ls"},
-    { title: "Wechat", url: "https://kiwiirc.com/nextclient/irc.libera.chat/?nick=Invitado&/?chan=#dnet"}
 
   ],
   // middlewares: [
