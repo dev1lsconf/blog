@@ -1,3 +1,8 @@
+---
+    title: IM BACK!
+    publish_date: 2023-05-31
+    summary: 'Tratando de ponerme al dia.. disculpenme..'
+---
 
 ![bg.jpg]({{site.baseurl}}/posts/bg.jpg)
 
