@@ -4,7 +4,7 @@ import blog, { ga, redirects, h } from "blog";
 
 blog({
   title: "Dev1ls>Blog",
-  description: "OpenBSD & NixOS User..  learning VM, Networking, python  and a  trying to document the daily life of a *BSD user.. :P",
+  description: "OpenBSD & NixOS User..  learning VM, Networking, C,  python, go  and trying to document the daily life of a *BSD user.. :P",
   // header: <header>Dev1ls' Blog</header>,
   // section: <section>My Logs:</section>,
  // `` footer: <footer>contact: dev1ls@sdf.org</footer>,
