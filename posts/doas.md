@@ -10,13 +10,13 @@ Al instalar OpenBSD, debe haber establecido una contraseña de cuenta raíz y su
 
 OpenBSD proporciona una configuración predeterminada para doas en su carpeta /etc/examples, solo necesitamos copiarla en:
 
-cp /etc/examples/doas.conf /etc/doas.conf
+|   cp /etc/examples/doas.conf /etc/doas.conf
 
 Con el archivo en su lugar, podemos editarlo y permitir que nuestro usuario normal lo use, puede usar vi o mg como vienen con el sistema.
 
 En las últimas líneas del archivo debería ver una línea como permit keepenv :wheel debajo de ella puede configurar su acceso de usuario al grupo doas:
 
-permitir keepenv nopass usuario
+|   permitir keepenv nopass usuario
 
 El permiso de comando le dará acceso a su usuario al grupo de ruedas, lo que le permitirá usar doas. Los otros dos son:
 
