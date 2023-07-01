@@ -19,7 +19,7 @@ Con el archivo en su lugar, podemos editarlo y permitir que nuestro usuario norm
 En las últimas líneas del archivo debería ver una línea como permit keepenv :wheel debajo de ella puede configurar su acceso de usuario al grupo doas:
 
 ```
-permitir keepenv nopass usuario
+permit keepenv nopass usuario
 ```
 
 El permiso de comando le dará acceso a su usuario al grupo wheel, lo que le permitirá usar doas. Los otros dos son:
@@ -33,8 +33,8 @@ El archivo final se verá así:
 
 ```
 # Permitir usuario por defecto
-permiso keepenv :usuario
-permitir keepenv nopass usuario
+permit keepenv :usuario
+permit keepenv nopass usuario
 ```
 
 Ahora puede volver a iniciar sesión con su usuario y probar el comando doas, puede hacerlo de la siguiente manera:
