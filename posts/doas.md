@@ -33,7 +33,7 @@ El archivo final se verá así:
 
 ```
 # Permitir usuario por defecto
-permit keepenv :usuario
+permit keepenv :wheel
 permit keepenv nopass usuario
 ```
 
