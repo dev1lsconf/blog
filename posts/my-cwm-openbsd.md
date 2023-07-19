@@ -4,7 +4,7 @@ publish_date:  2023-07-19
 summary: 'aqui comparto mi configuracion de cwm y mis script para correr la barra de status con lemonbar..'
 ---
 
-[![My cwm](/my-cwm-openbsd.png)](https://man.openbsd.org/cwm.1)
+[![My cwm](/cwm-openbsd.png)](https://man.openbsd.org/cwm.1)
 
 CWM: un administrador de ventanas liviano y eficiente para X11. cwm viene ya inegrado en los paquetes basicos de OpenBSD al igual que fvwm y twm.
 y es facilmente configurable con su archivo rc en el escritorio de cada usuario y invocando su ejecucion en el .xinit o .xsession depnde de como
