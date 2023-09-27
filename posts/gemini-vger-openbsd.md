@@ -7,8 +7,8 @@ summary: 'Gemini is a new internet technology supporting an electronic library o
 # Install Packages
 
 ````
-# pkg_add vger
-# echo "# it works" >> /var/gemini/index.gmi
+$ pkg_add vger
+$ echo "# it works" >> /var/gemini/index.gmi
 ````
 
 # Configure inetd
@@ -64,16 +64,16 @@ block return in on ! lo0 proto tcp to port 6000:6010
 # Smoke Test
 
 ```
-# pfctl -f /etc/pf.conf
-# rcctl enable inetd relayd
-# rcctl start inetd relayd
+$ pfctl -f /etc/pf.conf
+$ rcctl enable inetd relayd
+$ rcctl start inetd relayd
 ````
 
 # test if it works
 
 ````
-# pkg_add bombadillo
-# bombadillo gemini://example.com
+$ pkg_add bombadillo
+$ bombadillo gemini://example.com
 ````
 
 Eventually, I will write a script that converts html to the gemini markdown format. I will likely set it up as a cron job so that I can serve this website over gemini and never have to touch it again. 
