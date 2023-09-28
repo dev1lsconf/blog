@@ -1,5 +1,5 @@
 ---
-title: Gemini Server = vger + OpenBSD  
+title: vger + OpenBSD  
 publish_date:  2023-09-27
 summary: 'Gemini is a new internet technology supporting an electronic library of interconnected text documents. Thats not a new idea, but its not old fashioned either.'
 ---
