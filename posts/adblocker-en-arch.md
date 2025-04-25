@@ -6,25 +6,25 @@ summary: Configurar UFW como AdBlocker en Arch Linux
 
 Para usar UFW (Uncomplicated Firewall) como un bloqueador de anuncios en Arch Linux, puedes seguir estos pasos:
 
-1. Instalar UFW
+## Instalar UFW
 
 
 ```bash
 sudo pacman -S ufw
 ```
 
-2. Habilitar y iniciar UFW
+## Habilitar y iniciar UFW
 
 ```bash
 sudo systemctl enable --now ufw
 sudo ufw enable
 ```
-3. Instalar dependencias para el bloqueo de anuncios
+## Instalar dependencias para el bloqueo de anuncios
 
 ```bash
 sudo pacman -S curl python
 ```
-4. Crear un script para generar reglas de bloqueo
+## Crear un script para generar reglas de bloqueo
 Crea un archivo llamado ufw-adblock.sh:
 
 ```bash
@@ -65,22 +65,22 @@ rm "$TMP_FILE"
 echo "Bloqueo de anuncios configurado con UFW"
 ```
 
-5. Hacer el script ejecutable
+## Hacer el script ejecutable
 
 ```bash
 chmod +x ufw-adblock.sh
 ```
-6. Ejecutar el script
+## Ejecutar el script
 
 ```bash
 sudo ./ufw-adblock.sh
 ```
-7. Verificar las reglas
+## Verificar las reglas
 
 ```bash
 sudo ufw status numbered
 ```
-8. (Opcional) Programar actualización periódica
+## (Opcional) Programar actualización periódica
 Puedes agregar el script a cron para que se actualice regularmente:
 
 ```bash
