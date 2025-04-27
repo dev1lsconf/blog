@@ -1,11 +1,12 @@
 /* style.tcss */
 #app-grid {
     layout: grid;
-    grid-size: 2 2;
+    grid-size: 1 3;
     grid-columns: 1fr 2fr;
-    grid-rows: auto 1fr;
+    grid-rows: auto 2fr;
     padding: 1;
     height: 100%;
+    width: 100%;
 }
 
 #metadata-container {
@@ -25,11 +26,12 @@
 .content-editor {
     width: 100%;
     height: 100%;
+
 }
 
 #buttons-container {
     width: 100%;
-    column-span: 2;
+    column-span: 1;
     layout: horizontal;
     align: center middle;
     height: auto;
