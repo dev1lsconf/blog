@@ -1,5 +1,5 @@
 ---
-title: Mi Viaje con NixOS: Gestión de Configuración Inmutable con Flakes
+title: Mi Viaje con NixOS, Configuración Inmutable con Flakes
 publish_date: 2025-07-16
 summary: 'Hola a todos! Hoy quiero compartir mi experiencia y mi configuración de NixOS, un sistema operativo que ha cambiado la forma en que gestiono mi entorno de desarrollo. Si eres de los que valoran la reproducibilidad y la inmutabilidad en su configuración, ¡sigue leyendo!'
 ---
@@ -21,7 +21,10 @@ En mi repositorio, la configuración está organizada de forma muy clara:
 • Todo esto está escrito completamente en el lenguaje Nix, que representa el 100.0% de mi código en este repositorio. La cantidad de commits, que asciende a 9, muestra el progreso y las iteraciones en mi configuración.
 
 Esta estructura me permite tener un control granular sobre mi sistema y asegurar que siempre pueda volver a un estado conocido y funcional.
-Mi Repositorio en GitHub: El Corazón de mi Configuración
+Mi Repositorio en GitHub: 
+
+## El Corazón de mi Configuración
+
 Para gestionar y compartir mi configuración de NixOS, he creado un repositorio público en GitHub llamado dev1lsconf/nixos-config. Su descripción, "My NixOS Configutarion", resume perfectamente su propósito: es el centro donde reside toda la lógica de mi sistema.
 Aunque actualmente cuenta con 0 estrellas, 0 forks y 0 watchers, este repositorio es un proyecto personal en el que invierto tiempo para mantener mi sistema optimizado y reproducible. GitHub me proporciona las herramientas necesarias para gestionar los cambios de código, revisar mis configuraciones y colaborar, aunque por ahora sea conmigo mismo.
 Este enfoque de tener mi configuración en un repositorio de control de versiones es clave para la filosofía de NixOS, permitiéndome versionar mis cambios y desplegarlos de manera consistente.
