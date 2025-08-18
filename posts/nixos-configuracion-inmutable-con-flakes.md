@@ -18,7 +18,7 @@ En mi repositorio, la configuración está organizada de forma muy clara:
 
 • Además, mi carpeta de modulos adicionales o configuraciones más específicas para organizar mejor mi configuración.
 
-• Todo esto está escrito completamente en el lenguaje Nix, que representa el 100.0% de mi código en este repositorio. La cantidad de commits, que asciende a 9, muestra el progreso y las iteraciones en mi configuración.
+• Todo esto está escrito completamente en el lenguaje Nix, que representa el 100.0% de mi código en este repositorio. La cantidad de commits, muestra el progreso y las iteraciones en mi configuración.
 
 Esta estructura me permite tener un control modular sobre mi sistema y asegurar que siempre pueda volver a un estado conocido y funcional.
 
@@ -32,8 +32,6 @@ Este enfoque de tener mi configuración en un repositorio de control de versione
 
 Crear y mantener una configuración de NixOS como la que tengo en mi repositorio, especialmente utilizando Nix Flakes y organizando los módulos de esta manera, es un testimonio de un proceso de aprendizaje significativo.
 Aunque las fuentes proporcionadas no detallan los aspectos específicos de mi curva de aprendizaje, el hecho de tener una configuración funcional y versionada en GitHub demuestra la dedicación y el esfuerzo invertido en comprender los conceptos de NixOS, que pueden ser complejos al principio. Dominar el lenguaje Nix y entender cómo interactúan los diferentes archivos de configuración (configuration.nix, home.nix, flake.nix, etc.) es una habilidad valiosa que se adquiere a través de la práctica y la experimentación.
-
-(Tenga en cuenta que los detalles específicos sobre la duración o los desafíos exactos de su viaje de aprendizaje no se encuentran en las fuentes proporcionadas. Esta sección se basa en la implicación de que la existencia de una configuración de NixOS bien estructurada sugiere un proceso de aprendizaje considerable).
 
 mi repositorio :
 
