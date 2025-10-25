@@ -4,7 +4,7 @@ publish_date: 2025-10-25
 summary: ¿Pero qué pasaría si pudieras tener tu propia red global, cifrada de extremo a extremo, sin servidores centrales y accesible desde cualquier lugar? Eso es exactamente lo que propone Yggdrasil, una fascinante red mesh construida sobre los cimientos de IPv6
 ---
 
-![ipv6 yggdrasil](/yggdrasil0.jpeg)
+![ipv6 yggdrasil](/yggdrasil.gif)
 
 # La Red Mesh IPv6 Descentralizada 
 
