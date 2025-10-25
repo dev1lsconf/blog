@@ -9,7 +9,7 @@ from textual.containers import Container, VerticalScroll
 from textual.widgets import Header, Footer, Input, TextArea, Button, Static
 
 class MarkdownPostCreator(App):
-    """A TUI application to create markdown posts with consistent front matter."""
+    """Blog dev1ls Publish TUI app."""
 
     CSS_PATH = "style.tcss"
     BINDINGS = [
