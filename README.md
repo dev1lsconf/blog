@@ -21,6 +21,5 @@ Este blog está construido de forma sencilla utilizando:
 - **Entorno de Desarrollo:** NixOS Flakes para una gestión de dependencias declarativa y reproducible.
 - **Script de Publicación:** Un script en Python para automatizar tareas.
 
-## Vistazo
 
 
