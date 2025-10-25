@@ -4,6 +4,8 @@ publish_date: 2025-10-25
 summary: ¿Pero qué pasaría si pudieras tener tu propia red global, cifrada de extremo a extremo, sin servidores centrales y accesible desde cualquier lugar? Eso es exactamente lo que propone Yggdrasil, una fascinante red mesh construida sobre los cimientos de IPv6
 ---
 
+![ipv6 yggdrasil](yggdrasil0.png)
+
 # La Red Mesh IPv6 Descentralizada 
 
 En este post, exploraremos qué es Yggdrasil, por qué es una idea tan poderosa y, lo más importante, cómo puedes implementarla de forma increíblemente sencilla usando NixOS.
@@ -16,6 +18,8 @@ La clave de su funcionamiento es IPv6. Mientras que el internet que la mayoría 
 
 Esta dirección es tuya, permanente, y te identifica en la red Yggdrasil sin importar si estás conectado en casa, en una cafetería o en otro país.
 
+![ipv6 explicacion](yggdrasil2.png)
+
 ## Puntos Fuertes de Yggdrasil
 
 Lo que hace a Yggdrasil tan atractivo no es solo su arquitectura, sino sus beneficios prácticos:
@@ -24,6 +28,8 @@ Lo que hace a Yggdrasil tan atractivo no es solo su arquitectura, sino sus benef
 *   🌳 **Descentralizado y Resiliente**: Como el árbol mítico del que toma su nombre, la red no tiene un tronco central. Si un nodo o un grupo de nodos cae, el tráfico simplemente busca una ruta alternativa. No hay un "interruptor" central que se pueda apagar.
 *   🌍 **Accesible Globalmente**: Tu dirección IPv6 de Yggdrasil es tu identidad. Puedes conectarte a tus dispositivos desde cualquier parte del mundo como si estuvieran en tu red local, sin configurar VPNs complejas ni lidiar con NATs.
 *   🚀 **Fácil de Usar**: Una vez instalado, Yggdrasil simplemente funciona. Te proporciona una nueva interfaz de red y tú (y tus aplicaciones) solo tenéis que usar las direcciones IPv6 correspondientes.
+
+![Implementación en NixOS] (yggdrasil1.png)
 
 ## Implementación en NixOS: La Vía Declarativa
 
