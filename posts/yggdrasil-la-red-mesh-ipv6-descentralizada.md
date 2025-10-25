@@ -29,7 +29,7 @@ Lo que hace a Yggdrasil tan atractivo no es solo su arquitectura, sino sus benef
 *   🌍 **Accesible Globalmente**: Tu dirección IPv6 de Yggdrasil es tu identidad. Puedes conectarte a tus dispositivos desde cualquier parte del mundo como si estuvieran en tu red local, sin configurar VPNs complejas ni lidiar con NATs.
 *   🚀 **Fácil de Usar**: Una vez instalado, Yggdrasil simplemente funciona. Te proporciona una nueva interfaz de red y tú (y tus aplicaciones) solo tenéis que usar las direcciones IPv6 correspondientes.
 
-![Implementación en NixOS] (/yggdrasil1.png)
+![Implementacion en NixOS](/yggdrasil1.png)
 
 ## Implementación en NixOS: La Vía Declarativa
 
